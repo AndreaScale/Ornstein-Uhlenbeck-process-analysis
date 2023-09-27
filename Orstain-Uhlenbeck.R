@@ -1,10 +1,5 @@
-##### FIRST ASSIGNMENT 
-
-## Andrea Scalenghe - 913359
-## Matteo Morabito - 918551
-
-
-#Exercise 1
+## Andrea Scalenghe
+## Matteo Morabito
 
 
 Yvariable <- function(beta, gamma, sigma, h) {
@@ -24,9 +19,6 @@ plot(seq(0,T,0.01), Y_1, col = "blue", type = "l", xlab = "Time", ylab = "Y(t)")
 lines(seq(0,T,0.1), Y_2, col = "red", type = "l")
 
 
-
-#Exercise 2
-
 X<-matrix(nrow = 1501, ncol = 4, byrow = FALSE)
 g<-seq(2,5)
 for(i in 2:5) {
@@ -40,9 +32,6 @@ lines(seq(0,T,0.01), X[,4], col = "blue")
 
 #We can see that as gamma increases the value of the process also increases
 
-
-
-#Exercise 3
 
 beta<-1
 gamma<-0
@@ -94,8 +83,6 @@ par(mfrow=c(1,1))
 plot(density(theor_sample), col = "red")
 lines(density(simul), col = "blue")
 
-
-#Exercise 4
 
 X_5<-simul
 
